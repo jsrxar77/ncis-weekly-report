@@ -1,0 +1,24 @@
+﻿Sprints,Sprint 0,Sprint 1,Sprint 2,Sprint 3,Sprint 4,Sprint 5,Sprint 6,Sprint 7,Sprint 8,Sprint 9
+Sprint End Date,4/29/2019,5/21/2019,6/4/2019,6/18/2019,7/2/2019,7/16/2019,7/30/2019,8/13/2019,8/27/2019,9/10/2019
+Ready for Dev (SP),0,0,0,16,20,33,54,49,52,20
+Remaining Work,200,184,167,150,137,116,89,79,45,45
+In progress (HLE),0,0,0,7,8,8,6,12,10,10
+Added work,0,0,0,0,0,0,0,0,0,0
+Total Remaining Work,0,0,0,0,0,0,0,0,0,0
+Total Completed Work,24,25,42,55,76,103,113,147,147,147
+% Completed Work,11%,12%,20%,27%,36%,47%,56%,65%,77%,77%
+FTE - Developers,5,5,5,5,5,5,5,5,5,5
+FTE-QA,2,2,2,2,2,2,2,2,2,2
+FTE - UX/VD/BA,1,1,1,1,1,1,1,1,1,1
+Remaining Sprints ,13,11,10,10,8,6,5,4,2,3
+Deadline( + 2 Weeks),5/13/2019,5/21/2019,5/21/2019,5/7/2019,5/21/2019,5/21/2019,5/7/2019,6/4/2019,6/4/2019,4/23/2019
+Commitmment(Planning),0,0,0,9,21,28,39,29,35,0
+User Stories,5,8,6,3,7,10,12,7,7,
+Stretch Goal,16,17,17,4,0,6,0,7,0,0
+Retired Sprint in progress,0,0,0,0,0,0,0,0,0,0
+Total Commitment,16,17,17,9,21,34,39,5,35,0
+Carry over,0,0,0,0,0,7,29,0,0,0
+% Carry Over,0%,0%,0%,0%,0%,21%,74%,0%,0%,-
+Completed (Sp),16,17,17,13,21,27,10,34,0,0
+Average Velocity,16,17,17,16,17,19,18,21,18,14
+Tendency,16,17,17,16,17,20,19,24,15,11

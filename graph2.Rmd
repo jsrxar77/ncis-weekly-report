@@ -1,0 +1,73 @@
+---
+title: "NCIS Weekly Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(reshape2)
+library(ggthemes)
+theme_set(
+  theme_tufte() +
+    theme(legend.position = "top", legend.title = element_blank())
+  )
+```
+
+## General
+
+This is a general summary
+
+```{r load, echo=FALSE}
+# read data
+sprints_aux <- read.csv("./sprint-summary.csv")
+
+# transpose
+sprints <- sprints_aux %>% 
+  gather(key = key, value = value, 2:ncol(sprints_aux)) %>% 
+  spread(key = names(sprints_aux)[1], value = "value")
+```
+
+## Backlog Health
+
+Backlog health, for example:
+
+```{r backlog-health, echo=FALSE}
+# prepare for graph: backlog-health
+sprints_backlog_health <- melt(sprints[,c("key","Ready for Dev (SP)", "In progress (HLE)", "Remaining Work")],id.vars = 1)
+sprints_backlog_health[, c(3)] <- sapply(sprints_backlog_health[, c(3)], as.numeric)
+
+# graph: backlog-health
+ggplot(sprints_backlog_health, aes(x = sprints_backlog_health$key,y = sprints_backlog_health$value)) + 
+    geom_bar(aes(fill = sprints_backlog_health$variable),stat = "identity",position = "dodge")  +
+    labs(title = "Backlog Health", subtitle = "NCIS", caption = "Source: Jira", x = "Sprints", y = "Story Points")
+```
+
+
+## Velocity
+
+Velocity, for example:
+
+
+```{r valocity, echo=FALSE}
+# prepare for graph: velocity
+sprints_velocity <- melt(sprints[,c("key", "Commitmment(Planning)", "Completed (Sp)", "Stretch Goal", "Carry over")],id.vars = 1)
+sprints_velocity[, c(3)] <- sapply(sprints_velocity[, c(3)], as.numeric)
+
+# prepare for graph: us
+sprints_us <- sprints %>%  
+  select("key", "User Stories")
+sprints_us[, c(2)] <- sapply(sprints_us[, c(2)], as.numeric)
+
+# prepare for graph: av
+sprints_av <- sprints %>%  
+  select("key", "Average Velocity")
+sprints_av[, c(2)] <- sapply(sprints_av[, c(2)], as.numeric)
+
+# graph: velocity
+ggplot() + 
+    geom_bar(data=sprints_velocity,aes(x = sprints_velocity$key,y = sprints_velocity$value,fill = sprints_velocity$variable),stat = "identity",position = "dodge") +
+    geom_line(aes(x=sprints_us$key, y=sprints_us$`User Stories`, group=1), linetype = "dashed", color="black", size=1.2) +
+    geom_line(aes(x=sprints_av$key, y=sprints_av$`Average Velocity`, group=1),color="grey", size=1.2) +
+    labs(title = "Velocity Chart", subtitle = "NCIS", caption = "Source: Jira", x = "Sprints", y = "Story Points")
+```
