@@ -24,9 +24,22 @@ epic <- epic.assignments %>% select("Status", "Issue.Type", "Issue.key", "Summar
 
 depends.columns <- epic.assignments %>% select("Issue.key", contains('Outward.issue.link..Depend.')) %>% head(0)
 links.columns <- epic.assignments %>% select("Issue.key", contains('Outward.issue.link..Links.')) %>% head(0)
+tests.columns <- epic.assignments %>% select("Issue.key", contains('Outward.issue.link..Test.Case.')) %>% head(0)
 
-assignments <- melt(epic.assignments[,colnames(depends.columns)],id.vars = 1)
-assignments.depend <- assignments %>% 
+assignments.depends.aux <- melt(epic.assignments[,colnames(depends.columns)],id.vars = 1)
+assignments.depends <- assignments.depends.aux %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.related" = value) %>%
+  select("Issue.key","Issue.key.related")
+
+assignments.links.aux <- melt(epic.assignments[,colnames(links.columns)],id.vars = 1)
+assignments.links <- assignments.links.aux %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.related" = value) %>%
+  select("Issue.key","Issue.key.related")
+
+assignments.tests.aux <- melt(epic.assignments[,colnames(tests.columns)],id.vars = 1)
+assignments.tests <- assignments.tests.aux %>% 
   filter(value != "") %>% 
   mutate("Issue.key.related" = value) %>%
   select("Issue.key","Issue.key.related")
