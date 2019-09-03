@@ -1,5 +1,5 @@
 ---
-title: "Weekly Report"
+title: "Weekly Report Summary"
 output: html_document
 ---
 
@@ -11,7 +11,7 @@ library(ggthemes)
 library(knitr)
 theme_set(
   theme_tufte() +
-    theme(legend.position = "top", legend.title = element_blank())
+    theme(legend.position = "top", legend.title = element_bla3nk())
   )
 ```
 
