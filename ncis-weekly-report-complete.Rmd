@@ -17,11 +17,18 @@ theme_set(
 
 ```{r load, echo=FALSE}
 # read data
-sprint.summary <- read.csv("./sprint-summary.csv")
-previous.action.items <- read.csv("./previous-action-items.csv")
+epic.assignments <- read.csv("./epic-assignments.csv")
 
-# transpose
-sprints <- sprint.summary %>% 
-  gather(key = key, value = value, 2:ncol(sprint.summary)) %>% 
-  spread(key = names(sprint.summary)[1], value = "value")
+# arrange data
+epic <- epic.assignments %>% select("Status", "Issue.Type", "Issue.key", "Summary", "Assignee")
+
+depends.columns <- epic.assignments %>% select("Issue.key", contains('Outward.issue.link..Depend.')) %>% head(0)
+links.columns <- epic.assignments %>% select("Issue.key", contains('Outward.issue.link..Links.')) %>% head(0)
+
+assignments <- melt(epic.assignments[,colnames(depends.columns)],id.vars = 1)
+assignments.depend <- assignments %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.related" = value) %>%
+  select("Issue.key","Issue.key.related")
 ```
+

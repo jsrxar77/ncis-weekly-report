@@ -20,7 +20,7 @@ theme_set(
 sprint.summary <- read.csv("./sprint-summary.csv")
 previous.action.items <- read.csv("./previous-action-items.csv")
 
-# transpose
+# arrange data
 sprints <- sprint.summary %>% 
   gather(key = key, value = value, 2:ncol(sprint.summary)) %>% 
   spread(key = names(sprint.summary)[1], value = "value")
