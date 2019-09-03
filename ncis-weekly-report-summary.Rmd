@@ -1,6 +1,6 @@
 ---
 title: "Weekly Report Summary"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +11,7 @@ library(ggthemes)
 library(knitr)
 theme_set(
   theme_tufte() +
-    theme(legend.position = "top", legend.title = element_bla3nk())
+    theme(legend.position = "top", legend.title = element_blank())
   )
 ```
 
