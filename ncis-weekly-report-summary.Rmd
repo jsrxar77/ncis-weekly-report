@@ -80,5 +80,5 @@ ggplot() +
     geom_bar(data=sprints_velocity,aes(x = sprints_velocity$key,y = sprints_velocity$value,fill = sprints_velocity$variable),stat = "identity",position = "dodge") +
     geom_line(aes(x=sprints_us$key, y=sprints_us$`User Stories`, group=1), linetype = "dashed", color="black", size=1.2) +
     geom_line(aes(x=sprints_av$key, y=sprints_av$`Average Velocity`, group=1),color="grey", size=1.2) +
-    labs(title = "Velocity Chart", subtitle = "NCIS", caption = "Source: Jira", x = "Sprints", y = "Story Points")
+    labs(title = "Velocity Chart", subtitle = "NCIS", caption = "Source: Jira", x = "Sprints", y = "Story Points") + scale_fill_brewer("Blues")  
 ```

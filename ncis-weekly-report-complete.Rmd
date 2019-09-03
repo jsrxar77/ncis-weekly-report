@@ -11,7 +11,7 @@ library(ggthemes)
 library(knitr)
 theme_set(
   theme_tufte() +
-    theme(legend.position = "top", legend.title = element_blank())
+    theme(legend.position = "top", legend.title = element_blank()) 
   )
 ```
 
@@ -30,18 +30,45 @@ assignments.depends.aux <- melt(epic.assignments[,colnames(depends.columns)],id.
 assignments.depends <- assignments.depends.aux %>% 
   filter(value != "") %>% 
   mutate("Issue.key.related" = value) %>%
-  select("Issue.key","Issue.key.related")
+  select("Issue.key","Issue.key.related") %>%
+  rename(Issue.key.depend = Issue.key.related)
 
 assignments.links.aux <- melt(epic.assignments[,colnames(links.columns)],id.vars = 1)
 assignments.links <- assignments.links.aux %>% 
   filter(value != "") %>% 
   mutate("Issue.key.related" = value) %>%
-  select("Issue.key","Issue.key.related")
+  select("Issue.key","Issue.key.related") %>%
+  rename(Issue.key.link = Issue.key.related)
 
 assignments.tests.aux <- melt(epic.assignments[,colnames(tests.columns)],id.vars = 1)
 assignments.tests <- assignments.tests.aux %>% 
   filter(value != "") %>% 
   mutate("Issue.key.related" = value) %>%
-  select("Issue.key","Issue.key.related")
+  select("Issue.key","Issue.key.related") %>%
+  rename(Issue.key.test = Issue.key.related)
 ```
+
+
+```{r status, echo=FALSE}
+# graph: status
+ggplot() + 
+    geom_bar(data=epic,aes(x = "", y = epic$Status , fill = epic$Status ), stat = "identity") + 
+  coord_polar("y", start=0) +
+  labs(title = "Epic Status Chart", subtitle = "NCIS", caption = "Source: Jira", x = "", y = "") + scale_fill_brewer("Blues")  
+```
+
+
+```{r epic-asignment, echo=FALSE}
+
+# prepare for graph: epic-asignment
+epic.assignment.graph <- epic %>% 
+  left_join(assignments.depends) %>% 
+  left_join(assignments.links) %>% 
+  left_join(assignments.tests)
+
+# graph: epic-asignment
+
+
+```
+
 
