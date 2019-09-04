@@ -1,21 +1,50 @@
 ---
-title: "NCIS ETL"
+title: "NCIS LTE"
 output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```{r extract, echo=FALSE}
 library(tidyverse)
 library(reshape2)
-library(ggthemes)
-library(knitr)
-theme_set(
-  theme_tufte() +
-    theme(legend.position = "top", legend.title = element_blank()) 
-  )
-```
 
-```{r load, echo=FALSE}
-# read data
-epic.assignments <- read.csv("./ncis-issues.csv")
+# load data
+#ncis.issues <- read.csv("~//ncis-weekly-report/ncis-issues.csv")
+#ncis.issue.sprints <- read.csv("~//ncis-weekly-report/ncis-issue-sprints.csv")
+#ncis.issue.links <- read.csv("~//ncis-weekly-report/ncis-issue-links.csv")
+
+# load data
+aux.ncis.issues <- read.csv("./ncis-issues.csv")
+aux.ncis.issue.sprints <- read.csv("./ncis-issue-sprints.csv")
+aux.ncis.issue.links <- read.csv("./ncis-issue-links.csv")
+
+# transform data: columns
+aux.sprint.columns <- aux.ncis.issue.sprints %>% select("Issue.key", contains('Sprint')) %>% head(0)
+aux.depend.columns <- aux.ncis.issue.links %>% select("Issue.key", contains('Outward.issue.link..Depend')) %>% head(0)
+aux.link.columns <- aux.ncis.issue.links %>% select("Issue.key", contains('Outward.issue.link..Links')) %>% head(0)
+aux.test.columns <- aux.ncis.issue.links %>% select("Issue.key", contains('Outward.issue.link..Test.Case')) %>% head(0)
+
+# transform data: final related tables
+melt.ncis.issue.sprints <- melt(aux.ncis.issue.sprints[,colnames(aux.sprint.columns)],id.vars = 1)
+ncis.issue.sprints <- melt.ncis.issue.sprints %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.child" = value) %>%
+  select("Issue.key","Issue.key.child")
+
+melt.ncis.issue.depends <- melt(aux.ncis.issue.links[,colnames(aux.depend.columns)],id.vars = 1)
+ncis.issue.depends <- melt.ncis.issue.depends %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.child" = value) %>%
+  select("Issue.key","Issue.key.child")
+
+melt.ncis.issue.links <- melt(aux.ncis.issue.links[,colnames(aux.link.columns)],id.vars = 1)
+ncis.issue.links <- melt.ncis.issue.links %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.child" = value) %>%
+  select("Issue.key","Issue.key.child")
+
+melt.ncis.issue.tests <- melt(aux.ncis.issue.links[,colnames(aux.test.columns)],id.vars = 1)
+ncis.issue.tests <- melt.ncis.issue.tests %>% 
+  filter(value != "") %>% 
+  mutate("Issue.key.child" = value) %>%
+  select("Issue.key","Issue.key.child")
 ```
