@@ -8,14 +8,9 @@ library(tidyverse)
 library(reshape2)
 
 # load data
-#ncis.issues <- read.csv("~//ncis-weekly-report/ncis-issues.csv")
-#ncis.issue.sprints <- read.csv("~//ncis-weekly-report/ncis-issue-sprints.csv")
-#ncis.issue.links <- read.csv("~//ncis-weekly-report/ncis-issue-links.csv")
-
-# load data
-aux.ncis.issues <- read.csv("./ncis-issues.csv")
-aux.ncis.issue.sprints <- read.csv("./ncis-issue-sprints.csv")
-aux.ncis.issue.links <- read.csv("./ncis-issue-links.csv")
+aux.ncis.issues <- read.csv("~//ncis-weekly-report/ncis-issues.csv")
+aux.ncis.issue.sprints <- read.csv("~//ncis-weekly-report/ncis-issue-sprints.csv")
+aux.ncis.issue.links <- read.csv("~//ncis-weekly-report/ncis-issue-links.csv")
 
 # transform data: columns
 aux.sprint.columns <- aux.ncis.issue.sprints %>% select("Issue.key", contains('Sprint')) %>% head(0)
