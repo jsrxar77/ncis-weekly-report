@@ -42,4 +42,6 @@ ncis.issue.tests <- melt.ncis.issue.tests %>%
   filter(value != "") %>% 
   mutate("Issue.key.child" = value) %>%
   select("Issue.key","Issue.key.child")
+
+ncis.issues <- aux.ncis.issues
 ```
