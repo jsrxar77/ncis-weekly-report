@@ -1,0 +1,21 @@
+---
+title: "NCIS ETL"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(reshape2)
+library(ggthemes)
+library(knitr)
+theme_set(
+  theme_tufte() +
+    theme(legend.position = "top", legend.title = element_blank()) 
+  )
+```
+
+```{r load, echo=FALSE}
+# read data
+epic.assignments <- read.csv("./ncis-issues.csv")
+```

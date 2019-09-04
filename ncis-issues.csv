@@ -1,0 +1,724 @@
+Issue key,Issue id,Parent id,Issue Type,Summary,Status,Assignee,Custom field (Story Points),Custom field (Epic Link)
+NCIS-1,235639,,Story,Test Story,Cancelled,,,
+NCIS-2,238558,,Task,Elasticsearch investigation.,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-3,238560,,Task,NCIS SharePoint Landing Page,Closed,ryan.yokoyama@xpo.com,,
+NCIS-4,238669,,Story,"As a CIS requester, I want to assign/reassign collectors to customer groups, so that GetPaid will have the correct collector assigned to a specific collector group.",Open,,,NCIS-237
+NCIS-5,239070,,Story,"As a CIS requester, I want to be notified by email if the CIS request has changed status, so I can monitor the progress of my request.�",Open,,,
+NCIS-6,239071,,Story,"As a CIS requester, I want to be notified if there is more information needed, so that I can provide more information to the coder.",Open,,,
+NCIS-7,239072,,Story,"As a CIS requester, I want to change the DUNS number, so that credit checks and external agencies will identify the customer correctly.�",Open,,,
+NCIS-8,239073,,Story,"As a CIS requester, I want to convert a bill-to to a restricted account, so that customer�s rates will not show up on the delivery receipt.�",Open,,,
+NCIS-9,239074,,Story,"As a CIS requester, I want to convert a restricted bill-to to a non-restricted account, so that the customer's rates will be exposed on the delivery receipt.",Open,,,
+NCIS-10,239075,,Story,"As a CIS requester, I want to edit a submitted CIS request, so that I can correct or add additional changes.�",Open,,,
+NCIS-11,239076,,Story,"As a CIS requester, I want to submit a change request to add a business name alias for a code, so that the code can be matched by typing in a different name or address during customer matching in Order Entry or Corrections.�",Open,,,
+NCIS-12,239077,,Story,"As a CIS requester, I want to submit a change request to add a contact for a code, so that the contact can be displayed in other LTL applications.",Open,,,
+NCIS-13,239078,,Story,"As a CIS requester, I want to submit a change request to add bill-to, so that new invoices can be sent to a different bill-to.�",Open,,,
+NCIS-14,239079,,Story,"As a CIS requester, I want to submit a change request to add/delete/update customer groups, so AR management and EDI systems can perform correctly.�",Open,,,
+NCIS-15,239080,,Story,"As a CIS requester, I want to submit a change request to associate a different bill-to to a P&D code, so future invoices will go to the new bill-to.�",Open,,,
+NCIS-16,239081,,Story,"As a CIS requester, I want to submit a change request to associate a service recipient with bill-to, so that correct business rules will apply in invoicing, pricing, and operations.�",Open,,,
+NCIS-17,239082,,Story,"As a CIS requester, I want to submit a change request to change credit information (status, limits, credit authorization) for a P&D or bill-to, so that the invoicing and driver collect process knows how to handle invoice payments.�",Open,,,
+NCIS-18,239083,,Story,"As a CIS requester, I want to submit a change request to change invoice transmission rules for a bill-to, so future invoices will be transmitted on a different invoice mode or schedule.�",Open,,,
+NCIS-19,239084,,Story,"As a CIS requester, I want to submit a change request to create a new hierarchy, so that I can create a customer account for a new customer.�",Open,,,
+NCIS-20,239085,,Story,"As a CIS requester, I want to submit a change request to create a service recipient, so that new 3rd party logistic companies can be tied to multiple customers for invoicing and operational purposes.�",Open,,,
+NCIS-21,239086,,Story,"As a CIS requester, I want to submit a change request to delete a bill-to, so invoices no longer go to an old bill-to.�",Open,,,
+NCIS-22,239087,,Story,"As a CIS requester, I want to submit a change request to delete a contact for a code, so that the contact will no longer be displayed in other LTL applications.�",Open,,,
+NCIS-23,239088,,Story,"As a CIS requester, I want to submit a change request to merge two hierarchies, so that the customer�s pricing and AR can be consolidated.�",Open,,,
+NCIS-24,239089,,Story,"As a CIS requester, I want to submit a change request to remove a business name alias for a code, so that the code cannot be matched under a different name or address during customer matching in Order Entry or Corrections.�",Open,,,
+NCIS-25,239090,,Story,"As a CIS requester, I want to submit a change request to update a bill-to, so invoices will go to the correct address.�",Open,,,
+NCIS-26,239091,,Story,"As a CIS requester, I want to submit a change request to update a business name alias for a code so that the code can be matched correctly under a different name or address during customer matching in Order Entry or Corrections.�",Open,,,
+NCIS-27,239092,,Story,"As a CIS requester, I want to submit a change request to update a contact for a code, so that the contact�s information will be displayed in other LTL applications.�",Open,,,
+NCIS-28,239093,,Story,"As a CIS requester, I want to submit a change request to update the prepaid and collect true debtor, so that AR will set on the correct account for new invoices.�",Open,,,
+NCIS-29,239094,,Story,"As a CIS requester, I want to update the sales territory for a customer, so that sales commission can be performed correctly.�",Open,,,
+NCIS-30,239095,,Story,"As a CIS requester, I want to view the status of my submitted CIS requests, so that I can see if my request has been processed.�",Open,,,
+NCIS-31,239096,,Story,"As a coder, I want to add or remove members to a customer group, so I can fulfill a CIS request.�",Open,,,
+NCIS-32,239097,,Epic,Customer CRUD Operations,Open,,,
+NCIS-33,239098,,Story,"As a coder, I want to add/delete/update/view business name aliases, so that I can fulfill a CIS request.�",Cancelled,,,
+NCIS-34,239099,,Story,"As a coder, I want to add/delete/update/view contacts, so that I can fulfill a CIS request.�",Open,,,
+NCIS-35,239100,,Story,"As a coder, I want to add/delete/update/view customer groups, so I can fullfil a CIS request.�",Open,,,
+NCIS-36,239101,,Story,"As a coder, I want to add/delete/update/view service recipients, so that I can fulfill a CIS request.�",Cancelled,,,
+NCIS-37,239102,,Story,"As a coder, I want to assign/reassign collectors to customer groups, so that GetPaid will have the correct collector assigned to a specific collector group.�",Open,,,
+NCIS-38,239103,,Story,"As a coder, I want to be able to enter remarks or comments on a request, so that I can document what I did and what I found as part of my analysis.�",Cancelled,,,
+NCIS-39,239104,,Story,"As a coder, I want to be able to reject or approve each item on a request, so that the requester knows what was processed as requested.�",Cancelled,,,
+NCIS-40,239105,,Story,"As a coder, I want to be able to transfer a request to another queue, so that the correct coder works the request.�",Cancelled,,,
+NCIS-41,239106,,Story,"As a coder, I want to be notified when NASS or another person approves my request, so I know when to take action.�",Cancelled,,,
+NCIS-42,239107,,Story,Coder changes bill-to association with a P&D customer.,Open,,,NCIS-32
+NCIS-43,239108,,Story,"As a coder, I want to change the DUNS number, so that I can fulfill a CIS request.�",Cancelled,,,
+NCIS-44,239109,,Story,Coder changes invoicing transmission rules for a customer,Open,,,NCIS-32
+NCIS-45,239110,,Story,"As a coder, I want to comment on each item, so the requester knows what was performed, performed differently, or reason for rejection.�",Cancelled,,,
+NCIS-46,239111,,Story,Coder converts/unconverts restricted account for a bill-to location,Open,,,NCIS-32
+NCIS-47,239112,,Story,"As a coder, I want to merge two hierarchies, so that I can fulfill a CIS request.�",Open,,,NCIS-236
+NCIS-48,239113,,Story,"As a coder, I want to transfer a CIS request to NASS for review, so I can be confident the request is valid.�",Cancelled,,,
+NCIS-49,239114,,Story,Coder updates prepaid and collect true debtor for a customer location.,Open,,,NCIS-32
+NCIS-50,239115,,Epic,Tim views National queue and selects first change request.,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-51,239116,,Story,"As a coder, I want to view all CIS requests that I�m currently working on, so I can continue working on them when I get more information.�",Cancelled,,,
+NCIS-52,239117,,Story,Credit Analyst views and updates credit information for a customer.,Open,,,NCIS-32
+NCIS-53,239118,,Story,"As a coder, I want to view CIS request queues, so that I can work a specific queue at a time.�",Cancelled,,,
+NCIS-54,239119,,Story,"As a coding supervisor, I want to view a closed-request summary, so that I can view statistics for coders.�",Open,,,
+NCIS-55,239120,,Story,"As a coding supervisor, I want to view an open-request summary, so that I can see the backlog of unprocessed CIS requests.�",Open,,,
+NCIS-56,239121,,Story,Build control report to ensure legacy CIS and new CIS are identical�,Open,,,
+NCIS-57,239122,,Story,Coders must have maintenance capabilities to update customer data. (Data Specialist Role),Cancelled,,,NCIS-238
+NCIS-58,239123,,Story,Coding supervisor and manager will have same access as Coders.,Cancelled,,,NCIS-238
+NCIS-59,239124,,Story,Current LTL applications must continue to read from legacy CIS until all APIs and LTL applications are rewritten to support new APIs.�,Open,,,
+NCIS-60,239125,,Story,Ensure that inappropriate words are not used in MAD codes.,Cancelled,,,
+NCIS-61,239126,,Story,"Ensure that inappropriate words are not used in names, addresses, and cities",Cancelled,,,
+NCIS-62,239127,,Story,Ensure that the Customer Name is always in Name1 and 3PL is in Name2�,Cancelled,,,
+NCIS-63,239128,,Story,Ensure there are no duplicate name1/address�,Cancelled,,,
+NCIS-64,239129,,Story,Ensure there are no similar name/address combination that would result in the same score as customer matching (e.g. look at search keys instead of as-entered)�,Cancelled,,,
+NCIS-65,239130,,Story,General users must have read-only access to customer data (Data Analyst Role),Cancelled,,,NCIS-238
+NCIS-66,239131,,Story,"Legacy CIS (e.g. aliases, code, hierarchies) must not forward sync to legacy CIS.�",Cancelled,,,
+NCIS-67,239132,,Story,New CIS must backsynch to legacy CIS for customer data�,Cancelled,,,
+NCIS-68,239133,,Story,"There must be a contact interface to read and write to contact tables from external LTL systems (e.g. GetPaid, SalesForce, and SCO).�",Open,,,
+NCIS-69,239153,,Task,Complete Business Requirement Document (BRD),Closed,ryan.yokoyama@xpo.com,,
+NCIS-70,239154,,Task,Product Roadmap,Closed,ryan.yokoyama@xpo.com,,
+NCIS-71,239155,,Task,Project Communication Plan,Closed,terri.montgomery@xpo.com,,
+NCIS-72,239156,,Task,Google Pub/Sub Learning Demo,Closed,Stephen.kirby@xpo.com,,
+NCIS-73,239157,,Task,Validate all team members have access to Oracle tables,Closed,,,
+NCIS-74,239158,,Task,Add Contacts & Groups to Oracle tables,Closed,vasant.gadgil@xpo.com,,
+NCIS-75,239159,,Task,"Complete ""Roadmap Template""",Closed,ryan.yokoyama@xpo.com,,
+NCIS-76,239322,239155,Sub task,Create Status Report Format,Closed,terri.montgomery@xpo.com,,
+NCIS-77,239325,239155,Sub task,Create Risk/Issues/Decision Log,Closed,terri.montgomery@xpo.com,,
+NCIS-78,239326,239155,Sub task,Establish Sprint Meetings,Closed,terri.montgomery@xpo.com,,
+NCIS-79,239266,,Task,Move NCIS Oracle Tables into a Different Schema for Public Consumption,Closed,vasant.gadgil@xpo.com,,
+NCIS-80,241010,,Story,"Create ""read"" Customer API",Cancelled,,,
+NCIS-81,241011,,Story,Setup NCIS tables and migrate data in Oracle,Cancelled,,,
+NCIS-82,242097,,Task,Service development in Liberty,Closed,Stephen.kirby@xpo.com,,
+NCIS-83,242098,,Task,Data Definitions for new data model,Closed,vasant.gadgil@xpo.com,,
+NCIS-84,242100,,Task,Data Conversion from CIS to NCIS in Test environment,Closed,,,
+NCIS-85,241926,,Epic,Create REST API for read only for customer attributes in new data model,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-86,241927,,Task,Create API spec document,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-87,241928,,Task,Create Common Use Cases,Closed,ryan.yokoyama@xpo.com,,
+NCIS-88,241931,,Task,Identify new tasks that came out of the observation session,Closed,ryan.yokoyama@xpo.com,,
+NCIS-89,242477,,Task,CIS Core Read-Only Data REST API Design,Closed,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-90,242478,,Task,CIS Core Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-91,242479,,Task,CIS Alias Read-Only Data REST API Design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-92,242480,,Task,CIS Alias Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-93,242481,,Task,Stories for NCIS mockup - Corporate wireframe,Closed,ryan.yokoyama@xpo.com,,
+NCIS-94,242482,,Task,CIS Financial Read-Only Data REST API Design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-95,242483,,Task,CIS Financial Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-96,242484,,Task,CIS hierarchy Read-Only Data REST API Design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-97,242485,,Task,CIS hierarchy Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-98,242486,,Task,CIS Contacts Read-Only Data REST API Design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-99,242487,,Task,CIS Contacts Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-100,242490,,Task,CIS Audit Read-Only Data REST API Design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-101,242492,,Task,CIS audit Read-Only Data REST API Documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-85
+NCIS-102,242515,,Task,Credit status definition,Closed,ryan.yokoyama@xpo.com,,
+NCIS-103,243119,,Task,ERD Description for NCIS Core data,Cancelled,vasant.gadgil@xpo.com,,NCIS-85
+NCIS-104,243120,,Task,ERD Description for NCIS Alias data,Cancelled,vasant.gadgil@xpo.com,,NCIS-85
+NCIS-105,243121,,Task,ERD Description for NCIS Financial data,Cancelled,vasant.gadgil@xpo.com,,NCIS-85
+NCIS-106,243123,,Task,ERD Description for NCIS Contacts data,Cancelled,vasant.gadgil@xpo.com,,NCIS-85
+NCIS-107,243124,,Task,ERD Descrition for NCIS Audit data,Cancelled,vasant.gadgil@xpo.com,,NCIS-85
+NCIS-108,243125,,Task,International address considerations,Open,Martin.Fallenstedt@xpo.com,,
+NCIS-109,243155,,Task,NCIS field limits,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-110,243167,,Task,Validate contact role list,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-111,243258,,Task,Fax field or not,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-112,243259,408322,Sub task,Customer data filtering - account type,Cancelled,,,
+NCIS-113,243558,,Task,Create an onboarding checklist for Annia,Closed,ryan.yokoyama@xpo.com,,
+NCIS-114,243367,,Task,SpeedyG Data Reference,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-115,243975,,Task,Create Persona for NASS,Closed,ryan.yokoyama@xpo.com,,
+NCIS-116,243976,,Task,Create Persona for Credit,Closed,ryan.yokoyama@xpo.com,,
+NCIS-117,243977,,Task,Create Persona for CIS Requester (New),Closed,ryan.yokoyama@xpo.com,,
+NCIS-118,243978,,Task,Create Persona for CIS Requester (Experienced),Closed,ryan.yokoyama@xpo.com,,
+NCIS-119,243979,,Task,Plan for Observation for Credit dept,Closed,ryan.yokoyama@xpo.com,,
+NCIS-120,243980,,Task,Plan for Observation for NASS,Closed,ryan.yokoyama@xpo.com,,
+NCIS-121,243981,,Task,Create an Orientation Training for Newcomers,Closed,ryan.yokoyama@xpo.com,,
+NCIS-122,244377,,Story,Automatic SIC Update - Weekly Process,Open,,,
+NCIS-123,244576,,Task,Document SpeedyG data reading,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-124,244545,,Epic,Refactor API documentation based on new UI mockups,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-125,244547,,Task,Refactor API documentation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-124
+NCIS-126,244550,,Task,Update ERD schema to accommodate updated UI mockups,Cancelled,vasant.gadgil@xpo.com,,NCIS-124
+NCIS-127,244560,,Epic,Expose change requests via API ,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-128,244561,,Task,NCIS change request reading API design,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-127
+NCIS-129,244563,,Task,NCIS change request reading API documenation,Cancelled,Martin.Fallenstedt@xpo.com,,NCIS-127
+NCIS-130,244566,,Task,NCIS change request reading API implementation,Cancelled,Stephen.kirby@xpo.com,,NCIS-127
+NCIS-131,244771,,Task,Core codes demystified,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-132,244776,,Epic,All activities related to obtaining True Debtor information,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-133,244777,,Task,Document DB schema for obtaining True Debtor,Closed,vasant.gadgil@xpo.com,,NCIS-132
+NCIS-134,244778,,Task,Implement documented DB schema for obtaining True Debtor,Closed,Martin.Fallenstedt@xpo.com,,NCIS-132
+NCIS-135,244779,,Task,Customer National or not,Closed,vasant.gadgil@xpo.com,,NCIS-241
+NCIS-136,244780,,Task,3rd party payment agency,Closed,vasant.gadgil@xpo.com,,NCIS-241
+NCIS-137,244782,,Task,Contact Role CRUD API,Cancelled,vasant.gadgil@xpo.com,,NCIS-241
+NCIS-138,245076,,Task,Sales Info Integration,Open,ryan.yokoyama@xpo.com,,
+NCIS-139,245582,,Story,"As a Credit Analyst, I want to be able to review and approve Credit queue, so that I can process incoming Credit requests.",Cancelled,,,
+NCIS-140,245594,,Story,"As a NASS person, I want to be able to be notified when I get a National request transferred to me, so that I can approve it immediately.",Cancelled,,,
+NCIS-141,245599,,Story,Coding Supervisor can view all requests in all queues,Open,,,NCIS-240
+NCIS-142,245601,,Task,Create Persona for Collector,Open,,,
+NCIS-143,245602,,Story,Coder Dashboard,Open,,,NCIS-240
+NCIS-144,245603,,Story,Coding Supervisor Dashboard,Open,,,NCIS-240
+NCIS-145,245604,,Story,Credit Dashboard,Open,,,NCIS-240
+NCIS-146,245605,,Story,NASS Dashboard,Open,,,NCIS-240
+NCIS-147,245615,,Task,New Customer Object CIS request (UI Design),Cancelled,,,
+NCIS-148,245616,,Task,Old Con-way email addresses tied to each queue,Open,,,
+NCIS-149,245617,,Story,"As a coder, I want to see NASS name on-screen for a national account, so I know who should review the National Account change.",Cancelled,,,
+NCIS-150,245902,,Story,"As a CIS requester, I want to update the SIC in the MAD code, so that the MAD code SIC aligns with Operational territories.",Open,,,NCIS-237
+NCIS-151,245903,,Task,MAD code creation process,Open,,,
+NCIS-152,245906,,Story,Access Employee Name and Email Addresses for Assignment,Cancelled,,,
+NCIS-153,330842,,Task,Document High-level UI Behavior,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-154,330843,,Task,"Create Engineer ""How To"" Document",Open,,,
+NCIS-155,330844,330843,Sub task,Document How To Create Basic Service,Open,,,
+NCIS-156,330845,330843,Sub task,Code Organization,Open,Stephen.kirby@xpo.com,,
+NCIS-157,330847,330843,Sub task,Document TeamCity Build,Open,,,
+NCIS-158,330849,330843,Sub task,Document Unit Test within TeamCity,Open,,,
+NCIS-159,330850,330843,Sub task,How to deploy & validate service,Open,,,
+NCIS-160,330851,330843,Sub task,Outline available diagnosis services,Open,,,
+NCIS-161,330852,330843,Sub task,Document High-level Software Architecture,Open,,,
+NCIS-162,330853,330843,Sub task,Document Structure of Code Organization,Open,,,
+NCIS-163,330854,,Task,Determine Order of Stories for Future Sprints,Cancelled,ryan.yokoyama@xpo.com,,
+NCIS-164,330856,,Task,Secure desks for On-shore leads,Closed,terri.montgomery@xpo.com,,
+NCIS-165,330857,,Epic,Configure Computers,Cancelled,,,
+NCIS-166,331188,,Task,Research feasibility of Messaging used in P&D App ,Open,,,
+NCIS-167,331294,,Story,Pricing request grouping - hierarchical customer view,Open,Martin.Fallenstedt@xpo.com,,NCIS-466
+NCIS-168,331302,,Task,Dashboard for displaying queues,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-169,331303,,Task,Create working UX Mockup,Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-170,331446,,Task,Create Storyboard for selecting a Change Request,Closed,Martin.Fallenstedt@xpo.com,,NCIS-50
+NCIS-171,331833,,Task,Use case for selecting a CIS change request,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-172,332348,,Task,Field sizes for UI and ERD,Closed,ryan.yokoyama@xpo.com,,
+NCIS-173,332240,,Task,Validate UX with targeted user,Closed,ryan.yokoyama@xpo.com,,NCIS-50
+NCIS-174,332487,,Task,Filtering in one queue using 'Request ID',Closed,Martin.Fallenstedt@xpo.com,,NCIS-50
+NCIS-175,332575,,Task,Dashboard UI design specification,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-176,334140,,Story,Coder views Corporate customer information,In Production,Luisina.Gentile@xpo.com,,NCIS-418
+NCIS-177,334447,,Task,Identify CIS Request API inputs and outputs,Closed,Stephen.kirby@xpo.com,,
+NCIS-178,390670,,Task,Search completed change requests,Closed,Martin.Fallenstedt@xpo.com,,NCIS-50
+NCIS-179,407146,,Epic,Coder Views CIS Request Details with sub-items,Open,,,
+NCIS-180,407147,,Story,Coder views CIS Request Header,Cancelled,,,NCIS-239
+NCIS-181,407342,334140,Sub task,Create Stub Service API for row container,Closed,,,
+NCIS-182,407343,334140,Sub task,Create unit test for API for row container,Cancelled,,,
+NCIS-183,407344,334140,Sub task,Define data type & length for data validation UI for row container,Cancelled,,,
+NCIS-184,407346,334140,Sub task,Populate UI for row container,Cancelled,,,
+NCIS-185,407348,334140,Sub task,Validate UI container control displays data correctly when resizing for row container,Cancelled,,,
+NCIS-186,407349,334140,Sub task,Error handling for row container,Cancelled,,,
+NCIS-187,407352,334140,Sub task,Create Stub Service API for small container,Cancelled,,,
+NCIS-188,407354,334140,Sub task,Create unit test for API for small container,Cancelled,,,
+NCIS-189,407355,334140,Sub task,Define data type & length for data validation UI for small container,Cancelled,,,
+NCIS-190,407356,334140,Sub task,Populate UI for small container,Cancelled,,,
+NCIS-191,407357,334140,Sub task,Validate UI container control displays data correctly when resizing for small container,Cancelled,,,
+NCIS-192,407358,334140,Sub task,Error handling for small container,Cancelled,,,
+NCIS-193,407359,334140,Sub task,Create Stub Service API for list container,Cancelled,,,
+NCIS-194,407360,334140,Sub task,Create unit test for API for list container,Cancelled,,,
+NCIS-195,407361,334140,Sub task,Define data type & length for data validation UI for list container,Cancelled,,,
+NCIS-196,407362,334140,Sub task,Populate UI for list container,Cancelled,,,
+NCIS-197,407363,334140,Sub task,Validate UI container control displays data correctly when resizing for list container,Cancelled,,,
+NCIS-198,407364,334140,Sub task,Error handling for list container,Cancelled,,,
+NCIS-199,407365,407146,Sub task,Create Stub Service API,Cancelled,,,
+NCIS-200,407366,407146,Sub task,Create unit test for API,Cancelled,,,
+NCIS-201,407367,407146,Sub task,Define data type & length for data validation UI,Cancelled,,,
+NCIS-202,407368,407146,Sub task,Populate UI,Cancelled,,,
+NCIS-203,407369,407146,Sub task,Validate UI container control displays data correctly when resizing,Cancelled,,,
+NCIS-204,407370,407146,Sub task,Error handling,Cancelled,,,
+NCIS-205,407372,,Task,Identify CIS Request Detail API inputs and outputs,Closed,Stephen.kirby@xpo.com,,
+NCIS-206,407373,,Task,Create API for Request Header from DB2,Cancelled,,,
+NCIS-207,407374,,Task,Create Use Cases for future sprints,Closed,ryan.yokoyama@xpo.com,,
+NCIS-208,408299,,Story,Coder puts CIS request on hold,Open,,,NCIS-239
+NCIS-209,408300,,Story,Coder transfers CIS request to another CIS queue,Open,,,NCIS-239
+NCIS-210,408301,,Story,Coder sends CIS request to NASS for approval,Open,,,NCIS-239
+NCIS-211,408303,,Story,Coder unlocks/unassigns request from themselves,Open,,,NCIS-239
+NCIS-212,408304,,Story,Coder enters comments at the header level.,Open,,,NCIS-239
+NCIS-213,408305,,Story,System enters comments at the header level.,Open,,,NCIS-239
+NCIS-214,408306,,Story,Coder views comments at the header level.,QA Done,Luisina.Gentile@xpo.com,,NCIS-239
+NCIS-215,408307,,Story,Coder approves/declines details for company information,Open,,,NCIS-239
+NCIS-216,408308,,Story,Coder completes request.,Open,,,NCIS-239
+NCIS-217,408309,,Story,Coder enters comments at the item level.,Open,,,NCIS-239
+NCIS-218,408310,,Story,System enters comments at the item level.,Open,,,NCIS-239
+NCIS-219,408311,,Story,Coder views comments at the item level.,Open,,,NCIS-239
+NCIS-220,408312,,Story,Customer UI v2 - View P&D without Invoice Instructions,In Production,Luisina.Gentile@xpo.com,,NCIS-418
+NCIS-221,408313,,Epic,Coder views Bill-To customer information.,Open,,,
+NCIS-222,408314,,Story,Coder updates Corporate customer information.,Open,,,NCIS-32
+NCIS-223,408315,,Story,Coder updates P&D customer information.,Open,,,NCIS-32
+NCIS-224,408316,,Story,Coder updates Bill-To customer information.,Open,,,NCIS-32
+NCIS-225,408317,,Story,Coder adds new Corporate customer,Open,,,NCIS-32
+NCIS-226,408318,,Story,Coder inactivates existing customer location,Open,,,NCIS-32
+NCIS-227,408319,,Story,Coder views audit/change history for a customer location,Open,,,NCIS-32
+NCIS-228,408320,,Story,Coder can filter/search history for a customer location,Open,,,NCIS-32
+NCIS-229,408321,,Story,System creates audit trail for a customer location,Open,,,NCIS-32
+NCIS-230,408322,,Story,Coder views customer hierarchy.,Open,,,NCIS-236
+NCIS-231,408323,,Story,Coder filters/searches within customer hierarchy.,Open,,,NCIS-236
+NCIS-232,408324,,Story,Coder Dashboard UI v1,Ready for Build (System Test),Braulio.Leon@xpo.com,,NCIS-240
+NCIS-233,408325,,Story,Coder can view requests in a queue.,Open,,,NCIS-240
+NCIS-234,408326,,Epic,Quick Customer Search,Open,,,
+NCIS-235,408327,,Epic,CIS Request Quick Search,Open,,,
+NCIS-236,408358,,Epic,Customer Hierarchies,Open,,,
+NCIS-237,408363,,Epic,CIS Request Submission,Open,,,
+NCIS-238,408364,,Epic,Access Control,Open,,,
+NCIS-239,408366,,Epic,CIS Request Management,Open,,,
+NCIS-240,408368,,Epic,Dashboards,Open,,,
+NCIS-241,408497,,Epic,Create NCIS DB Model,Closed,,,
+NCIS-242,410337,,Story,Credit Analyst can view credit queue and counts.,Open,,,NCIS-240
+NCIS-243,411214,,Story,System will expire 2 week old unsubmitted requests,Open,,,NCIS-237
+NCIS-244,411215,,Story,System will send an email to requester for unsubmitted requests,Open,,,NCIS-237
+NCIS-245,411861,,Story,ETS and EDI Contact Enhancement,Open,,,
+NCIS-246,412860,,Story,Coder approves/declines details for financial information,Open,,,NCIS-239
+NCIS-247,412861,,Story,Coder approves/declines details for business name aliases,Open,,,NCIS-239
+NCIS-248,412862,,Story,Coder approves/declines details for contacts,Open,,,NCIS-239
+NCIS-249,412863,,Story,Coder approves/declines details for 3rd party agency,Open,,,NCIS-239
+NCIS-250,413798,,Task,Business Alignment,Closed,ryan.yokoyama@xpo.com,,
+NCIS-252,414327,330843,Sub task,Create API Architectural Diagram,Open,Stephen.kirby@xpo.com,,
+NCIS-253,414934,,Task,Create API documentation - Oracle,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-254,414935,,Task,Create wireframes for all use cases,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-255,415765,,Story,Coder adds new P&D customer,Open,,,NCIS-32
+NCIS-256,415766,,Story,Coder adds new Bill-To customer,Open,,,NCIS-32
+NCIS-257,415767,,Story,Create Security Roles,Open,,,NCIS-238
+NCIS-258,415969,,Task,Schedule Symphony Tech Demo​,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-259,416072,,Task,Create Architecture Diagram,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-260,416073,,Task,Get Gilbert's workstation and access established,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-261,416074,,Story,API - List of Change Request Queues,In QA,Luisina.Gentile@xpo.com,,NCIS-240
+NCIS-262,416075,,Story,API - List of Change Requests in each Queue,In QA,Luisina.Gentile@xpo.com,,NCIS-240
+NCIS-264,416078,,Story,Legacy CIS API - Request Detailed Information,Cancelled,Stephen.kirby@xpo.com,,NCIS-179
+NCIS-265,416080,,Task,Legacy CIS API - List of Change Requests in each Queue,Cancelled,Stephen.kirby@xpo.com,,
+NCIS-266,416081,,Task,Legacy CIS API - List of Change Request Queues,Cancelled,Stephen.kirby@xpo.com,,
+NCIS-267,416082,,Task,Make sure every field is defined with Type & Length,Closed,ryan.yokoyama@xpo.com,,
+NCIS-268,416241,,Task,Prepare for NCIS Inception,Closed,ryan.yokoyama@xpo.com,,
+NCIS-269,416242,,Task,Finalize storyboard for wireframe showcase,Closed,ryan.yokoyama@xpo.com,,
+NCIS-270,418099,,Story,Coder creates Customer Group,Open,,,NCIS-272
+NCIS-271,418100,,Story,Coder updates Customer Group,Open,,,NCIS-272
+NCIS-272,418101,,Epic,Customer Group CRUD Operations,Open,,,
+NCIS-273,418273,,Task,BRD Signed Off by Business (Deferred),In Development,ryan.yokoyama@xpo.com,,
+NCIS-274,418274,,Task,UI Reviewed by Business,Closed,ryan.yokoyama@xpo.com,,
+NCIS-275,418275,,Task,Document How to Access Oracle from ODS,Closed,Martin.Fallenstedt@xpo.com,,
+NCIS-276,418277,,Task,"Discuss data ""Casing"" with Architects",Cancelled,Martin.Fallenstedt@xpo.com,,
+NCIS-277,474683,,Task,Create/Identify API for Pricing Agreement for Customer,Cancelled,Liana.Schweitzer@xpo.com,,
+NCIS-278,474684,,Task,Create/Identify API to determine if Open AR exists for a customer,Cancelled,Liana.Schweitzer@xpo.com,,
+NCIS-279,474686,,Task,Create/Identify API to note if a customer is an OBI customer,Cancelled,Liana.Schweitzer@xpo.com,,
+NCIS-280,474707,,Task,Refactor UI to match new UI Library,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-281,474708,,Task,Refactor UI to match new UI Library,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-282,476478,474708,Sub task,Clone LTL seed project and follow TODO checklist,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-283,476571,474707,Sub task,Clone ltl-seed project and create NCIS repository,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-284,476573,474707,Sub task,Create TeamCity Building,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-285,477188,474708,Sub task,"Initial setup, importing ngx-core-board",Cancelled,Braulio.Leon@xpo.com,,
+NCIS-286,477189,474708,Sub task,Adapt dashboard to match ngx-core UI library,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-287,477097,,Task,Create Mockups based in wireframes,Closed,Annia.Labrador@xpo.com,,
+NCIS-288,477051,,Task,3rd party payment provider flag,Cancelled,Maria.Ricon@xpo.com,,
+NCIS-289,477445,,Task,Service Contract - Get Customer Data,Cancelled,Maria.Ricon@xpo.com,,
+NCIS-290,477468,,Task,API - Update Customer Data,Cancelled,,,
+NCIS-297,477880,477468,Sub task,API Implementation for Core Customer Data,Cancelled,,,
+NCIS-298,477881,477468,Sub task,API Implementation for Aliases Customer Data,Cancelled,,,
+NCIS-299,477882,477468,Sub task,API Implementation for Financial Customer Data,Cancelled,,,
+NCIS-300,477883,477468,Sub task,API Implementation for Hierarchy Customer Data,Cancelled,,,
+NCIS-301,477884,477468,Sub task,API Implementation for Contacts Customer Data,Cancelled,,,
+NCIS-302,477885,477468,Sub task,API Implementation for History Customer Data,Cancelled,,,
+NCIS-310,483257,474707,Sub task,Refactor Groups component,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-311,485775,474708,Sub task,Refactor queue components,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-312,485888,,Task,Git Project Repo's & Parent POM version change,Cancelled,Maria.Ricon@xpo.com,,
+NCIS-313,485889,,Task,Git Project Repo's & Parent POM version change,Cancelled,Gilbert.Gonzales@xpo.com,,
+NCIS-314,486349,474707,Sub task,Change status color for Customer Card component,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-315,488562,474707,Sub task,Add resizable panels to change request page ,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-316,498454,474707,Sub task,Add mockups Tabs to left and right columns,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-317,498765,474708,Sub task,Table filters,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-318,499480,474708,Sub task,Add Tables on change request screen,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-319,502482,474708,Sub task,"Add ""More options"" menu on card",Cancelled,Braulio.Leon@xpo.com,,
+NCIS-320,615077,,Task,Update Wireframe Based on UX Review,Closed,ryan.yokoyama@xpo.com,,
+NCIS-321,615078,,Task,UX Review of Coding Screen,Closed,ryan.yokoyama@xpo.com,,
+NCIS-322,616062,,Task,Create Requested Changes Detail Component,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-323,616063,,Task,Create Requested Changes Detail Component,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-324,616064,,Task,Create contextual (more) Menu,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-325,616066,,Task,Dashboard - Retrieve data from backend,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-326,616272,,Task,Replace ag-grid in Customer request for ngx-core Table,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-327,616183,616066,Sub task,Hit different endpoints for each queue,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-328,616185,616066,Sub task,Map data using sdk-customerrequest package,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-330,622470,,Task,Customer Properties Component,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-331,623609,616066,Sub task,Add resolvers to fetch queue names from API,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-333,624840,,Story,[FE] Show Customer/Location details when clicking in Requested Change Header,In Production,Luisina.Gentile@xpo.com,,NCIS-179
+NCIS-334,625245,616066,Sub task,Dashboard error handling,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-335,626280,,Task,Install angular sdk for Customer API and retrieve data from backend,Cancelled,Annia.Labrador@xpo.com,,
+NCIS-337,629686,,Test,"Services | Customer API",UAT In Progress,Luisina.Gentile@xpo.com,,
+NCIS-342,629691,,Test,"Services | Customer Request API",Open,Luisina.Gentile@xpo.com,,
+NCIS-349,629535,,Story,[BE] - Return Basic Information of Customer on GET /customer/{customerId}/details API,In Production,,,NCIS-221
+NCIS-350,629536,629535,Sub task,[BE] Create DAO to return an specific Customer,Closed,,,
+NCIS-351,630113,,Test,"Services | Customer API - Performance",UAT In Progress,Luisina.Gentile@xpo.com,,
+NCIS-352,630119,,Test,"Services | Customer Request API - Performance",Open,Luisina.Gentile@xpo.com,,
+NCIS-353,630139,,Test,"Dashboard | Coder | Page Design",Open,Luisina.Gentile@xpo.com,,
+NCIS-354,630149,,Test,"Dashboard | Coder | Request Queues information",Open,Luisina.Gentile@xpo.com,,
+NCIS-356,631786,,Test,"Change Request | Coder | Company Information - Approve Request",Open,Luisina.Gentile@xpo.com,,
+NCIS-357,631787,,Test,"Change Request | Coder | Company Information - Reject Change",Open,Luisina.Gentile@xpo.com,,
+NCIS-358,631788,,Test,"Change Request | Coder | Company Information - Exit dialog box",Open,Luisina.Gentile@xpo.com,,
+NCIS-359,631789,,Test,"Change Request | Coder | Company Information - Dialog Box Design",Open,Luisina.Gentile@xpo.com,,
+NCIS-360,634672,,Test,"Customer information | Coder | Corporate customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-361,634673,,Test,"Customer information | Coder | Corporate customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-362,634674,,Test,"Customer information | Customer Analyst | Corporate customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-363,634675,,Test,"Customer information | Customer Analyst | Corporate customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-364,634676,,Test,"Customer information | Credit Analyst | Corporate customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-365,634677,,Test,"Customer information | Credit Analyst | Corporate customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-366,635411,,Test,"Customer information | Coder | Bill-To customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-367,635412,,Test,"Customer information | Coder | Bill-To customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-368,635413,,Test,"Customer information | Customer Analyst | Bill-To customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-369,635414,,Test,"Customer information | Customer Analyst | Bill-To customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-370,635415,,Test,"Customer information | Credit Analyst | Bill-To customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-371,635416,,Test,"Customer information | Credit Analyst | Bill-To customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-372,635426,,Test,"Customer information | Coder | P&D customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-373,635427,,Test,"Customer information | Coder | P&D customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-374,635428,,Test,"Customer information | Customer Analyst | P&D customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-375,635429,,Test,"Customer information | Customer Analyst | P&D customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-376,635430,,Test,"Customer information |  Credit Analyst | P&D customer - View Details",Open,Luisina.Gentile@xpo.com,,
+NCIS-377,635431,,Test,"Customer information |  Credit Analyst | P&D customer - Customer Not Found",Open,Luisina.Gentile@xpo.com,,
+NCIS-378,637032,629535,Sub task,[BE] Data Analysis of the lacking fields,Closed,,,
+NCIS-379,637035,629535,Sub task,[BE] Update getCisCustomerDetails Contract,Closed,,,
+NCIS-380,637038,629535,Sub task,[BE] Error Handling in getCisCustomerDetails API operation,Closed,,,
+NCIS-381,637040,629535,Sub task,[BE] Mapping new fields returned in getCisCustomerDetails API operation,Closed,,,
+NCIS-383,637322,,Test,"Change Request | Coder | Request Details ",Open,Luisina.Gentile@xpo.com,,
+NCIS-384,637323,,Test,"Change Request | Coder | Request Details - Navigate Location Items",Open,Luisina.Gentile@xpo.com,,
+NCIS-385,637324,,Test,"Change Request | Coder | Request Details - Change Request Owner",Open,Luisina.Gentile@xpo.com,,
+NCIS-386,637325,,Test,"Change Request | Coder | Request Details - Change Request Status",Open,Luisina.Gentile@xpo.com,,
+NCIS-389,637422,,Task,Analyze update customer details,Cancelled,Maria.Ricon@xpo.com,,
+NCIS-390,639012,629535,Sub task,[BE] Generate getCisCustomerDetails API Confluence documentation,Closed,,,
+NCIS-391,639084,,Story,[FE] Show Change Request information,In Production,Luisina.Gentile@xpo.com,,NCIS-179
+NCIS-392,639088,,Story,[FE] Show list of locations in the change request,In Production,Luisina.Gentile@xpo.com,,NCIS-179
+NCIS-393,639089,,Story,[FE] Show Name&Address Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-394,639090,,Story,[FE] Show Properties Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-395,639091,,Story,[FE] Show True Debtor Info for a Bill-To customer,Open,Annia.Labrador@xpo.com,,NCIS-221
+NCIS-396,639092,,Story,[FE] Show Business Name Aliases Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-397,639094,,Story,[FE] Show Service Recipient Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-398,639095,,Story,[FE] Show Contacts Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-399,639988,624840,Sub task,Add routing to navigate between locations,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-400,642513,639095,Sub task,Load Location data from resolver,Closed,Annia.Labrador@xpo.com,,
+NCIS-401,642514,639095,Sub task,Update Contacts mapping,Closed,Annia.Labrador@xpo.com,,
+NCIS-402,642529,629535,Sub task,[BE] Create Unit Tests,Closed,,,
+NCIS-403,642723,629535,Sub task,[BE] Generate LTL-CustomerRequest-API Confluence documentation,Closed,Maria.Ricon@xpo.com,,
+NCIS-404,643975,,Story,[FE] Show Financial Info for a Bill-To customer,In Production,Luisina.Gentile@xpo.com,,NCIS-221
+NCIS-405,643923,639084,Sub task,Add APP state management,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-406,644062,,Story,Customer API v2,In QA,Luisina.Gentile@xpo.com,,NCIS-418
+NCIS-407,644425,408324,Sub task,BE-Change queues and counts to see queues with 0 requests,Closed,Luisina.Gentile@xpo.com,,
+NCIS-408,644427,646328,Sub task,[BE] Change List of Requested Changes of a Queue to filter by Id and delete the Status filter,Ready for Build (System Test),Diego.Mendez@xpo.com,,
+NCIS-409,644534,639089,Sub task,Apply correct styles to Customer Status chip,Closed,Annia.Labrador@xpo.com,,
+NCIS-410,644937,643975,Sub task,Add Pipe to format money amount,Closed,Annia.Labrador@xpo.com,,
+NCIS-411,646187,629535,Sub task,Fix Service Recipient Name Mapping,Closed,Maria.Ricon@xpo.com,,
+NCIS-412,646208,629535,Sub task,Enums Refactor for Customer Details,Closed,Maria.Ricon@xpo.com,,
+NCIS-413,646324,,Story,Customer API v3 - Update,In QA,Luisina.Gentile@xpo.com,,NCIS-421
+NCIS-414,646326,,Epic,Coder Updates Customer,Open,ryan.yokoyama@xpo.com,,
+NCIS-415,646327,,Story,Request Details API v2 - View with Sub-Items,In QA,Luisina.Gentile@xpo.com,8.0,NCIS-179
+NCIS-416,646328,,Story,Request Details API v3 - View with Comments,In QA,Luisina.Gentile@xpo.com,3.0,NCIS-418
+NCIS-417,646329,,Story,Queue API v2 - Supervisor Dashboard,Open,,,NCIS-418
+NCIS-418,646339,,Epic,R2 - Queue to Request,Open,,,
+NCIS-419,646361,,Story,View Request Details UI v2 - Sub-Items,QA Done,Luisina.Gentile@xpo.com,5.0,NCIS-179
+NCIS-420,646658,639095,Sub task,Add phone pipe,Closed,Annia.Labrador@xpo.com,,
+NCIS-421,646898,,Epic,R3 - Processing Requests,Open,,,
+NCIS-422,647878,629535,Sub task,CustomerBO method refactor,Closed,Maria.Ricon@xpo.com,,
+NCIS-423,648358,408324,Sub task,[FE] Coder Dashboard layout,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-424,648365,408324,Sub task,[FE] Connection to first requested change on selected queue,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-425,648582,334140,Sub task,[Tech] - Update ngx-core and sdks,Closed,Annia.Labrador@xpo.com,,
+NCIS-426,648588,334140,Sub task,[FE] - Show customer with Corporate layout,Closed,Annia.Labrador@xpo.com,,
+NCIS-427,648434,646328,Sub task,[BE] Design proposal for new operation in Customer Request API,Closed,Diego.Mendez@xpo.com,,
+NCIS-429,650738,408312,Sub task,Create Invoice Instructions component (NO DATA) ,Closed,Annia.Labrador@xpo.com,,
+NCIS-430,651138,644062,Sub task,[BE] Design proposal for the Invoice Instructions,Ready for Build (System Test),Diego.Mendez@xpo.com,,
+NCIS-431,651143,644062,Sub task,[BE] Integration of Invoicing API,Cancelled,,,
+NCIS-432,652602,408324,Sub task,[FE] connection to first requested change from coder dashboard,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-433,653175,334140,Sub task,Styles update,Closed,Annia.Labrador@xpo.com,,
+NCIS-434,655730,646328,Sub task,[BE] Coding the proposal accepted for List Change Request Comments.,Closed,Diego.Mendez@xpo.com,,
+NCIS-435,655738,644062,Sub task,[BE] Coding the Payment Terms & National Accounts,Ready for Build (System Test),Diego.Mendez@xpo.com,,
+NCIS-436,656183,,Story,NCIS to support Net-120 days payment terms,Open,ryan.yokoyama@xpo.com,,NCIS-466
+NCIS-437,656194,,Story,Multi-tenant / warehouse P&D locations,Open,ryan.yokoyama@xpo.com,,NCIS-466
+NCIS-438,656195,,Story,Address normalization,Open,ryan.yokoyama@xpo.com,,
+NCIS-439,656196,,Story,Customer Hierarchy CSV Report,Open,ryan.yokoyama@xpo.com,,NCIS-466
+NCIS-440,657987,408306,Sub task,Create Comments UI component,Closed,Annia.Labrador@xpo.com,,
+NCIS-441,657988,408306,Sub task,Integrate Comments Api with Comments UI component,Closed,Annia.Labrador@xpo.com,,
+NCIS-442,657989,408312,Sub task,Integrate Invoice API with the Invoicing UI Component,Closed,Annia.Labrador@xpo.com,,
+NCIS-443,658793,646324,Sub task,Add Unit Test to Update,Ready For Development,,,
+NCIS-444,658842,646324,Sub task,Add Error Handling Personalized Messages,Ready for Build (System Test),Maria.Ricon@xpo.com,,
+NCIS-445,658998,408324,Sub task,[FE] Error handling when location does not exist,Cancelled,Braulio.Leon@xpo.com,,
+NCIS-446,659966,646328,Sub task,[BE] Return the comments ordered by date desc.,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-447,659967,408324,Sub task,[BE] Update the queues order,Cancelled,,,
+NCIS-448,660524,,Epic,Process Request and View Comments,Open,,,
+NCIS-449,660526,,Epic,Customer History API v1 - without CIS request ID/requester,Open,Filip.Szlono@xpo.com,,
+NCIS-450,660527,,Story,Customer API v5 - Support Add/Delete Alias and Contacts,In QA,Luisina.Gentile@xpo.com,,NCIS-448
+NCIS-451,660528,,Story,Request Details API v3 - Financial Info Sub-Item Group,In QA,Luisina.Gentile@xpo.com,3.0,NCIS-448
+NCIS-452,660529,,Story,Request Details API v4 - Track Sub-Item Statuses,Open,,,NCIS-448
+NCIS-453,660530,,Story,Request Details API v5 - Grab and Lock,Closed,Stephen.kirby@xpo.com,8.0,NCIS-448
+NCIS-454,660531,,Story,Customer UI v4 - View Invoice/Customer+ Fields,Ready For Development,Annia.Labrador@xpo.com,5.0,
+NCIS-455,660532,,Story,Customer UI v5 - Card Highlighting,Ready for Build (System Test),Braulio.Leon@xpo.com,3.0,NCIS-448
+NCIS-456,660533,,Story,Customer UI v6 - Review Card Info Request for Name & Address,Ready for Build (System Test),Braulio.Leon@xpo.com,5.0,NCIS-448
+NCIS-457,660534,,Story,Customer UI v8 - Approve/Decline Card Fields,Open,Braulio.Leon@xpo.com,8.0,NCIS-448
+NCIS-458,660535,,Story,Customer UI v8 - Approve/Decline Grid Fields,Open,,,NCIS-448
+NCIS-459,662123,660527,Sub task,[BE] Define API Contracts,Ready for Build (System Test),Maria.Ricon@xpo.com,,
+NCIS-460,662308,660533,Sub task,Create Dialog Service,Ready for Release,Braulio.Leon@xpo.com,,
+NCIS-461,663556,660532,Sub task,Create Service to get the card status depending on the info,Ready for Release,Braulio.Leon@xpo.com,,
+NCIS-462,664862,,Test,"Dashboard | Coder | Click on a Queue",Open,Luisina.Gentile@xpo.com,,
+NCIS-465,665119,,Test,"Change Request | Coder | Request Details - View Comments",Open,Luisina.Gentile@xpo.com,,
+NCIS-466,665275,,Epic,Requests from Other Teams,Open,,,
+NCIS-467,666385,,Task,Set Up GitHub for ncis UI automation testing ,Closed,Luisina.Gentile@xpo.com,,
+NCIS-468,666387,,Task,NCIS Testing Automation  - Coder Dashboard Test Cases,Closed,Luisina.Gentile@xpo.com,,
+NCIS-469,666401,,Story,Customer UI v9 - Customer History w/o filters,Open,,,
+NCIS-470,666403,,Story,Customer Hierarchy UI v1 - Customer Hierarchy w/o filters,Open,Braulio.Leon@xpo.com,5.0,NCIS-504
+NCIS-471,666405,,Story,Customer Search UI v1 - Basic Search,Open,,,
+NCIS-472,666407,,Story,CIS Request Search UI v1 - Basic Search,In Development,Braulio.Leon@xpo.com,,
+NCIS-473,666859,660527,Sub task,[BE] Add a Contact,Ready for Build (System Test),Maria.Ricon@xpo.com,,
+NCIS-474,666862,660527,Sub task,[BE] Add Business Name Alias,Ready for Build (System Test),Maria.Ricon@xpo.com,,
+NCIS-475,666863,660527,Sub task,[BE] Delete a Contact,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-476,666865,660527,Sub task,[BE] Delete a Business Name Alias,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-477,672879,,Bug,Incorrect contacts are showing,Open,Maria.Ricon@xpo.com,,NCIS-221
+NCIS-478,672886,,Bug,Collector Name is Incorrect,QA Done,Luisina.Gentile@xpo.com,,
+NCIS-479,673432,,Bug,Unassigned should be listed once for Collector Name,Open,Annia.Labrador@xpo.com,,
+NCIS-480,675116,,Bug,Name2 line is not showing up in Name/address.,QA Done,Luisina.Gentile@xpo.com,,
+NCIS-481,675117,,Bug,Credit Status is not always showing,Open,Annia.Labrador@xpo.com,,
+NCIS-482,677560,646327,Sub task,(B) Create Response DTOs and Transformers for Request Details API,Open,,,
+NCIS-483,677718,646327,Sub task,Design new structure of the response of listCisRequestDetails,Closed,Diego.Mendez@xpo.com,,
+NCIS-484,677722,660533,Sub task,Name and address form,Open,Annia.Labrador@xpo.com,,
+NCIS-485,677723,660533,Sub task,Financial form,Open,Annia.Labrador@xpo.com,,
+NCIS-486,677726,660530,Sub task,Make HumanResource API available to use for converting name/userId/racfId,Closed,Stephen.kirby@xpo.com,,
+NCIS-487,681589,646328,Sub task,Knowledge Transfer integrating Human Resource API,Closed,Diego.Mendez@xpo.com,,
+NCIS-488,681737,646328,Sub task,[BE] Code Improvements,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-489,681648,,Bug,Coder Dashboard - Empty Queue pop-us message not displaying,Ready For Development,Annia.Labrador@xpo.com,,NCIS-240
+NCIS-490,688946,408306,Sub task,Add username to comments,Closed,Annia.Labrador@xpo.com,,
+NCIS-491,688950,,Story,Customer UI v7 - Review Card Info Request for Financial Info,Ready for Build (System Test),Braulio.Leon@xpo.com,5.0,NCIS-678
+NCIS-492,690254,,Epic,Sprint 14 - Request Details Restructuring,Open,,,
+NCIS-493,692651,,Story,Request Details API v6 - Write Comments,Open,Filip.Szlono@xpo.com,,
+NCIS-494,692988,,Epic,Elastic Search for Customer Search (Research),Open,,,
+NCIS-495,693052,,Story,CIS Request Search v1 - Basic Search,In QA,Luisina.Gentile@xpo.com,,NCIS-543
+NCIS-496,693184,,Task,NIS Testing Automation  - Change Request Comment Tab Test Cases,Closed,Luisina.Gentile@xpo.com,,
+NCIS-497,693230,,Story,Customer History API v2 - Add RequestID/Requestor,Open,,,
+NCIS-498,693233,,Story,Security Authentication UI Control v1,Open,Annia.Labrador@xpo.com,,
+NCIS-499,697696,,Story,Customer UI v8.1 - Update Name/Address,Ready for Build (System Test),Annia.Labrador@xpo.com,,NCIS-637
+NCIS-500,697713,,Story,Customer UI v8.2 - Update Financial Info,Open,Braulio.Leon@xpo.com,,
+NCIS-501,697714,,Story,Customer UI v8.3 - Update Aliases,In Development,Annia.Labrador@xpo.com,,NCIS-588
+NCIS-502,697716,,Story,Customer UI v8.4 - Update Contacts,In Development,Braulio.Leon@xpo.com,3.0,NCIS-618
+NCIS-503,697727,,Story,Customer UI v8.5 - Update Service Recipient,Open,,,
+NCIS-504,698175,,Epic,View Customer Hierarchy,Open,,,
+NCIS-505,698196,,Story,Pricing API v1 - Identify Pricing Agreement,Open,,,
+NCIS-506,698223,,Story,Address Validation API v1 - Validate Address,Open,,,
+NCIS-507,705686,,Story,Create API - upsertModuleGroupModuleVersionRunResults,Cancelled,,,LMEF-104
+NCIS-509,709784,,Bug,Change Request Comments Tab - Comments Order,QA Done,Luisina.Gentile@xpo.com,,
+NCIS-510,709724,,Story,Create CIS Request Plug-In for Other Apps to Use,Open,,,
+NCIS-511,709725,,Story,Create Customer Hierarchy Plug-In for Other Apps to Use,Open,,,
+NCIS-512,710538,,Bug,Coder Dashboard - Design differences with Wireframe,Ready for Build (System Test),Braulio.Leon@xpo.com,,NCIS-240
+NCIS-513,710644,,Epic,Integrate with SSO,Open,Annia.Labrador@xpo.com,,
+NCIS-514,710772,,Bug,Coder Dashboard - error message pop-ups after login,Open,Annia.Labrador@xpo.com,,NCIS-240
+NCIS-515,710775,,Bug,Coder Dashboard - user has to click multiple times on the queue,Ready for Release,Braulio.Leon@xpo.com,,NCIS-240
+NCIS-516,715481,,Story,Integrate UI with Single Sign On,QA Done,Luisina.Gentile@xpo.com,,NCIS-699
+NCIS-517,715777,715481,Sub task,Follow step by step guide to add an app on GKE,Closed,Annia.Labrador@xpo.com,,
+NCIS-518,715778,715481,Sub task,Set up environments,Closed,Annia.Labrador@xpo.com,,
+NCIS-519,715779,715481,Sub task,Fix breaking changes for comments,Ready for Release,Annia.Labrador@xpo.com,,
+NCIS-520,715849,715481,Sub task,Fix unit testings,Closed,Braulio.Leon@xpo.com,,
+NCIS-521,716985,675116,Sub task,Update Name2 for NameAndAddress Card,Ready for Build (System Test),Maria.Ricon@xpo.com,,
+NCIS-522,717170,,Story,Research Customer Backsynch - Symphony,In Development,Stephen.kirby@xpo.com,5.0,NCIS-593
+NCIS-523,721342,697714,Sub task,Implement Edit Business Name Aliases,Closed,Annia.Labrador@xpo.com,,
+NCIS-524,721344,697714,Sub task,Implement Unit Tests for Update Aliases,Ready for Release,Annia.Labrador@xpo.com,,
+NCIS-525,721347,697696,Sub task,Implement Update for Name&Address,Closed,Annia.Labrador@xpo.com,,
+NCIS-526,721348,697696,Sub task,Implement Unit Tests for Implement Update for Name&Address,Ready for Release,Annia.Labrador@xpo.com,,
+NCIS-527,723882,,Story,BE - Customer Hierarchy API,Ready for Build (System Test),Filip.Szlono@xpo.com,,NCIS-504
+NCIS-528,723887,,Epic,View Parent,Open,,,
+NCIS-529,723888,,Epic,View Children,Open,,,
+NCIS-530,723911,,Epic,NCIS - QA Automation,Open,Luisina.Gentile@xpo.com,,
+NCIS-531,723745,697696,Sub task,Connect name and address object to store,Ready for Release,Braulio.Leon@xpo.com,,
+NCIS-532,723746,697714,Sub task,Connect BNA object to store,Ready for Release,Braulio.Leon@xpo.com,,
+NCIS-533,723994,717170,Sub task,Post NCIS Symphony strategy to Confluence,Ready for Release,Stephen.kirby@xpo.com,,
+NCIS-534,723995,717170,Sub task,Identify database tasks required to implement Symphony for NCIS,Ready for Release,Stephen.kirby@xpo.com,,
+NCIS-535,723997,717170,Sub task,Identify new projects needed for NCIS Symphony implementation,Ready for Release,Stephen.kirby@xpo.com,,
+NCIS-536,723999,723882,Sub task,Request new project creation for CustomerHierarchy API,Open,Stephen.kirby@xpo.com,,
+NCIS-537,724222,,Story,"QA Automation | Login Page with SSO",Cancelled,Luisina.Gentile@xpo.com,,NCIS-530
+NCIS-538,724223,,Story,"QA Automation | Customer Details",In Development,Luisina.Gentile@xpo.com,,NCIS-530
+NCIS-539,724224,,Story,"QA Automation | Change Request Details",Closed,Luisina.Gentile@xpo.com,,NCIS-530
+NCIS-540,724225,,Story,"QA Automation | Change Request Comments",Closed,Luisina.Gentile@xpo.com,,NCIS-530
+NCIS-541,724226,,Story,"QA Automation | Integrate API with UI ",Closed,Luisina.Gentile@xpo.com,,NCIS-530
+NCIS-542,725098,,Story,FE - View Customer - Invoice Instructions and Mode,In Development,Braulio.Leon@xpo.com,,
+NCIS-543,725113,,Epic,Basic Search for CIS Request,Open,,,
+NCIS-544,725739,,Story,BE - Add Invoicing Instructions to View Customer API,Cancelled,terri.montgomery@xpo.com,,
+NCIS-545,726253,,Bug,Add New Contact - Contact Type Spelling,Open,ryan.yokoyama@xpo.com,,
+NCIS-546,727070,,Task,CustomerRequest API is not working in L region,Cancelled,Liana.Schweitzer@xpo.com,,LISG-36
+NCIS-547,727821,,Bug,"Update Customer Name & Address | Cannot Update when Address is Empty",QA Done,Luisina.Gentile@xpo.com,,NCIS-414
+NCIS-548,727910,723882,Sub task,Create and request services contract,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-550,729314,,Bug,Customer API not returning address in some cases,Open,,,
+NCIS-551,730505,,Story,BE - Change Request Status to Complete,Ready for Build (System Test),Juan.lopez3@xpo.com,,NCIS-744
+NCIS-552,730506,,Epic,Forwarding a Request for Approval,Open,,,
+NCIS-553,730510,,Epic,Mark Request for Needs More Info,Open,,,
+NCIS-554,730976,730505,Sub task,Technical Analysis to identify how to update request status,Closed,Stephen.kirby@xpo.com,,
+NCIS-555,730955,,Bug,"Change Request API | Error 500 as response | L region",QA Done,Luisina.Gentile@xpo.com,,
+NCIS-556,731765,730506,Sub task,Technical analysis to identify how to implement forwarding a request,Closed,Stephen.kirby@xpo.com,,
+NCIS-557,731767,730506,Sub task,Generate Java artifacts from GEN proxy JS4F so it can be called from Java,Open,Sagar.Garaye@xpo.com,,
+NCIS-558,732060,730510,Sub task,Technical analysis to identify how to implement marking a request as needs more info,Ready for BA Signoff,Stephen.kirby@xpo.com,,
+NCIS-559,732875,730510,Sub task,Generate Java artifacts from GEN proxy JS4H s it can be called from Java,Open,Sagar.Garaye@xpo.com,,
+NCIS-560,733583,,Epic,NCIS-560 Request Details UI v3 - Redesign,Open,,,
+NCIS-561,734789,,Story,[UI] Create new Requested changes component based on new design,Ready for Build (System Test),Annia.Labrador@xpo.com,2.0,NCIS-560
+NCIS-562,734791,,Story,[UI] Integrate Requested Changes new component,Ready for Build (System Test),Annia.Labrador@xpo.com,1.0,NCIS-560
+NCIS-563,734569,,Story,"FE - Remove ""Process Request"" from Kebab Menu",Ready for Build (System Test),Braulio.Leon@xpo.com,,NCIS-691
+NCIS-564,734873,,Story,FE - Update Owner in CIS Request Header,In Development,Braulio.Leon@xpo.com,,
+NCIS-565,734849,,Story,Generate and store event ID in new  event table,In Development,Juan.lopez3@xpo.com,8.0,NCIS-648
+NCIS-566,735113,723882,Sub task,Customer Hierarchy services implementation,Ready for Build (System Test),Filip.Szlono@xpo.com,,
+NCIS-567,735700,730506,Sub task,Create service contract and send it to governance,Cancelled,Filip.Szlono@xpo.com,,
+NCIS-568,735701,,Story,[BE] Implement Forwarding Requests For Approval,In Development,Filip.Szlono@xpo.com,5.0,NCIS-552
+NCIS-569,735703,735701,Sub task,Create service contract and send it to governance,In Development,Filip.Szlono@xpo.com,,
+NCIS-570,736195,730510,Sub task,Modify contract for ListRequestDetails,Open,Stephen.kirby@xpo.com,,
+NCIS-571,736314,,Epic,Transfer Request to Another Queue,Open,,,
+NCIS-572,736315,,Story,Technical Analysis for Transfer Request to Another Queue,Closed,Stephen.kirby@xpo.com,,NCIS-571
+NCIS-573,736797,744564,Sub task,Create Governance team ticket for new contract for transferRequestToAnotherQueue API,Open,Stephen.kirby@xpo.com,,
+NCIS-574,736828,,Story,[BE] Quick customer search,In Development,Filip.Szlono@xpo.com,3.0,NCIS-234
+NCIS-575,736832,736828,Sub task,Create service contract and send it to governance,In Development,Filip.Szlono@xpo.com,,
+NCIS-576,737914,,Epic,View Notes on Review Screens,Open,,,
+NCIS-577,737915,,Story,Technical Analysis,Closed,Stephen.kirby@xpo.com,,
+NCIS-578,738915,,Story,[BE] Search CIS request by id,In Development,Filip.Szlono@xpo.com,3.0,NCIS-235
+NCIS-579,738920,738915,Sub task,Send contract change to governance team.,In Development,Filip.Szlono@xpo.com,,
+NCIS-580,739172,734873,Sub task,Refactor: get the change request from clicking in a queue,In Development,Braulio.Leon@xpo.com,,
+NCIS-581,740349,,Story,Customer UI - Review Changes for Business Name Aliases,In Development,Annia.Labrador@xpo.com,5.0,NCIS-659
+NCIS-582,741449,,Epic,LCST Report,Open,,,
+NCIS-583,741601,,Epic,Request Stats,Open,,,
+NCIS-584,741604,,Epic,Address Standardization,Open,,,
+NCIS-585,741608,,Epic,Address Validation,Open,,,
+NCIS-586,741609,,Epic,Alias - Add,Open,,,
+NCIS-587,741610,,Epic,Alias - Delete,Open,,,
+NCIS-588,741611,,Epic,Alias - Edit,Open,,,
+NCIS-589,741612,,Epic,Alias - View,Open,,,
+NCIS-590,741613,,Epic,AR Indicator - View,Open,,,
+NCIS-591,741614,,Epic,Associated Bill-Tos - View,Open,,,
+NCIS-592,741615,,Epic,Attached Pricing Ind - View,Open,,,
+NCIS-593,741616,,Epic,Backsynch Add Customer,Open,,,
+NCIS-594,741618,,Epic,Backsynch Alias Changes,Open,,,
+NCIS-595,741620,,Epic,Backsynch Collector Group Change,Open,,,
+NCIS-596,741621,,Epic,Backsynch Contact Changes,Open,,,
+NCIS-597,741622,,Epic,Backsynch Contact Integrated Systems,Open,,,
+NCIS-598,741624,,Epic,Backsynch Credit Changes,Open,,,
+NCIS-599,741625,,Epic,Backsynch Expire Customer,Open,,,
+NCIS-600,741627,,Epic,Backsynch Inactivate Customer,Open,,,
+NCIS-601,741630,,Epic,Backsynch Merge Hierarchy,Open,,,
+NCIS-602,741631,,Epic,Backsynch Name/Address Change,Open,,,
+NCIS-603,741632,,Epic,Backsynch Restricted Bill-To,Open,,,
+NCIS-604,741633,,Epic,Backsynch Sales Change,Open,,,
+NCIS-605,741634,,Epic,Backsynch Service Recipient Change,Open,,,
+NCIS-606,741642,,Epic,Bill-To - Add,Open,,,
+NCIS-607,741644,,Epic,Bill-To - Expire,Open,,,
+NCIS-608,741645,,Epic,Bill-To - Inactivate,Open,,,
+NCIS-609,741647,,Epic,Bill-To Counts - View,Open,,,
+NCIS-610,741648,,Epic,Collector Group - Add Members,Open,,,
+NCIS-611,741650,,Epic,Collector Group - Create Group,Open,,,
+NCIS-612,741652,,Epic,Collector Group - Delete Group,Open,,,
+NCIS-613,741654,,Epic,Collector Group - Edit Name,Open,,,
+NCIS-614,741656,,Epic,Collector Group - Move Members,Open,,,
+NCIS-615,741658,,Epic,Collector Group - View,Open,,,
+NCIS-616,741659,,Epic,Contacts - Add,Open,,,
+NCIS-617,741663,,Epic,Contacts - Delete,Open,,,
+NCIS-618,741665,,Epic,Contacts - Edit,Open,,,
+NCIS-619,741666,,Epic,Contacts - View,Open,,,
+NCIS-620,741668,,Epic,Corporate - Add,Open,,,
+NCIS-621,741770,,Epic,Corporate - Expire,Open,,,
+NCIS-622,741772,,Epic,Corporate - Inactivate,Open,,,
+NCIS-623,741775,,Epic,Credit Info - Edit,Open,,,
+NCIS-624,741776,,Epic,Credit Info - View,Open,,,
+NCIS-625,741778,,Epic,Duplicate Alias Logic,Open,,,
+NCIS-626,741779,,Epic,Duplicate Customer Logic,Open,,,
+NCIS-627,741780,,Epic,Invoice Criteria - Edit,Open,,,
+NCIS-628,741782,,Epic,Invoice Criteria - View,Open,,,
+NCIS-629,741783,,Epic,Invoice Instructions - Edit,Open,,,
+NCIS-630,741785,,Epic,Invoice Instructions - View,Open,,,
+NCIS-631,741787,,Epic,MAD Code Generation,Open,,,
+NCIS-632,741788,,Epic,Matching Stats - View,Open,,,
+NCIS-633,741789,,Epic,Merge Hierarchies,Open,,,
+NCIS-634,741790,,Epic,Move Corporate Between Hierarchies,Open,,,
+NCIS-635,741791,,Epic,Move P&D Between Hierarchies,Open,,,
+NCIS-636,741792,,Epic,Move Bill-To Between Hierarchies,Open,,,
+NCIS-637,741793,,Epic,Name & Address - Edit,Open,,,
+NCIS-638,741794,,Epic,Name & Address - View,Open,,,
+NCIS-639,741795,,Epic,P&D - Add,Open,,,
+NCIS-640,741796,,Epic,P&D - Expire,Open,,,
+NCIS-641,741798,,Epic,P&D - Inactivate,Open,,,
+NCIS-642,741799,,Epic,P&D Counts - View,Open,,,
+NCIS-643,741801,,Epic,Sales Info - Edit,Open,,,
+NCIS-644,741803,,Epic,Sales Info - View,Open,,,
+NCIS-645,741804,,Epic,Service Recipient - Edit,Open,,,
+NCIS-646,741805,,Epic,Service Recipient - View,Open,,,
+NCIS-647,741806,730506,Sub task,Technical Analysis - Restrict XPO Email addresses,Open,,,
+NCIS-648,741807,,Epic,Customer History - View,Open,,,
+NCIS-649,741808,730510,Sub task,Technical Analysis - Restrict XPO Email Addresses,Open,,,
+NCIS-650,741810,,Epic,Customer History - Filter,Open,,,
+NCIS-651,741811,,Epic,Change SIC on P&D,Open,,,
+NCIS-652,741812,,Epic,Mass Alias Change,Open,,,
+NCIS-653,741813,,Epic,True Debtor - View,Open,,,
+NCIS-654,741814,,Epic,True Debtor - Edit,Open,,,
+NCIS-655,741815,,Epic,Alias Item - Approve,Open,,,
+NCIS-656,741816,,Epic,Alias Item - Decline,Open,,,
+NCIS-657,741817,,Epic,Alias Item - Statusing,Open,,,
+NCIS-658,741818,,Epic,Alias Item - Update,Open,,,
+NCIS-659,741819,,Epic,Alias Item - View,Open,,,
+NCIS-660,741821,,Epic,Alias Item - Hold,Open,,,
+NCIS-661,741822,,Epic,Card Highlighting,Open,,,
+NCIS-662,741823,,Epic,Comments - Coder Update,Open,,,
+NCIS-663,741824,,Epic,Comments - System Update,Open,,,
+NCIS-664,741825,,Epic,Comments - View,Open,,,
+NCIS-665,741827,,Epic,Contact Item - Approve,Open,,,
+NCIS-666,741828,,Epic,Contact Item - Decline,Open,,,
+NCIS-667,741830,,Epic,Contact Item - Statusing,Open,,,
+NCIS-668,741832,,Epic,Contact Item - Statusing,Cancelled,,,
+NCIS-669,741569,,Test,"Customer Update | Business Name Aliases | Add new Alias",Open,Luisina.Gentile@xpo.com,,
+NCIS-670,741835,,Epic,Contact Item - Update,Open,,,
+NCIS-671,741836,,Epic,Contact Item - View,Open,,,
+NCIS-672,741837,,Epic,Contact Item - Hold,Open,,,
+NCIS-673,741838,,Epic,Financial Info - Approve,Open,,,
+NCIS-674,741839,,Epic,Financial Info - Decline,Open,,,
+NCIS-675,741870,,Test,"Customer Update | Business Name Aliases | Cancel Add new",Open,Luisina.Gentile@xpo.com,,
+NCIS-676,741840,,Epic,Financial Info - Statusing,Open,,,
+NCIS-677,741841,,Epic,Financial Info - Update,Open,,,
+NCIS-678,741842,,Epic,Financial Info - View,Open,,,
+NCIS-679,741843,,Epic,Financial Info - Hold,Open,,,
+NCIS-680,741844,,Epic,Invoice Instructions - Approve,Open,,,
+NCIS-681,741845,,Epic,Invoice Instructions - Decline,Open,,,
+NCIS-682,741846,,Epic,Invoice Instructions - Statusing,Open,,,
+NCIS-683,741847,,Epic,Invoice Instructions - Update,Open,,,
+NCIS-684,741848,,Epic,Invoice Instructions - View,Open,,,
+NCIS-685,741849,,Epic,Invoice Instructions - Hold,Open,,,
+NCIS-686,741850,,Epic,Name & Address - Approve,Open,,,
+NCIS-687,741851,,Epic,Name & Address - Decline,Open,,,
+NCIS-688,741852,,Epic,Name & Address - Statusing,Open,,,
+NCIS-689,741853,,Epic,Name & Address - Update,Open,,,
+NCIS-690,741873,,Test,"Customer Update | Business Name Aliases | Edit Alias",Open,Luisina.Gentile@xpo.com,,
+NCIS-691,741859,,Epic,Name & Address - View,Open,,,
+NCIS-692,741861,,Epic,Name & Address - Hold,Open,,,
+NCIS-693,741862,,Epic,Request Details - View,Open,,,
+NCIS-694,741863,,Epic,Request Header - Approval Request,Open,,,
+NCIS-695,741864,,Epic,Request Header - Auto-Advance,Open,,,
+NCIS-696,741865,,Epic,Request Header - Needs More Info,Open,,,
+NCIS-697,741866,,Epic,Request Header - Statusing,Open,,,
+NCIS-698,741867,,Epic,Request Header - Transfer Queue,Open,,,
+NCIS-699,741868,,Epic,Request Header - View,Open,,,
+NCIS-700,741869,,Epic,Invoice Criteria - Approve,Open,,,
+NCIS-701,741970,,Epic,Invocie Criteria - Decline,Open,,,
+NCIS-702,741971,,Epic,Invoice Criteria - Statusing,Open,,,
+NCIS-703,741972,,Epic,Invoice Criteria - Update,Open,,,
+NCIS-704,741973,,Epic,Invoice Criteria - View,Open,,,
+NCIS-705,741974,,Epic,Invocie Criteria - Hold,Open,,,
+NCIS-706,741975,,Epic,True Debtor - Approve,Open,,,
+NCIS-707,741976,,Epic,True Debtor - Decline,Open,,,
+NCIS-708,741978,,Epic,True Debtor - Statusing,Open,,,
+NCIS-709,741882,,Test,"Customer Update | Business Name Aliases | Cancel Edit Alias",Open,Luisina.Gentile@xpo.com,,
+NCIS-710,741885,,Test,"Customer Update | Business Name Aliases | Delete Alias",Open,Luisina.Gentile@xpo.com,,
+NCIS-711,741996,,Epic,True Debtor - Update,Open,,,
+NCIS-712,741997,,Epic,True Debtor - View,Open,,,
+NCIS-713,741999,,Epic,True Debtor - Hold,Open,,,
+NCIS-714,741888,,Test,"Customer Update | Business Name Aliases | Cancel Delete Alias",Open,Luisina.Gentile@xpo.com,,
+NCIS-715,742001,,Epic,Notes - View,Open,,,
+NCIS-716,742002,,Epic,Notes - Edit,Open,,,
+NCIS-717,742003,,Epic,Basic Customer Search,Open,,,
+NCIS-718,742004,,Epic,Advanced Customer Search,Open,,,
+NCIS-719,742005,,Epic,Basic Request Search,Open,,,
+NCIS-720,742007,,Epic,Advanced Request Search,Open,,,
+NCIS-721,742008,,Epic,Global Search - MAD Code,Open,,,
+NCIS-722,742009,,Epic,Global Search - Request ID,Open,,,
+NCIS-723,741899,,Test,"Customer Update | Contacts | Add new Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-724,741901,,Test,"Customer Update | Contacts | Cancel Add new Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-725,741902,,Test,"Customer Update | Contacts | Edit Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-726,742019,,Epic,Hierarchy - View,Open,,,
+NCIS-727,742020,,Epic,Hierarchy - Filter,Open,,,
+NCIS-728,742021,,Epic,Hierarchy - Grouping,Open,,,
+NCIS-729,742022,,Epic,Hierarchy - Pricing,Open,,,
+NCIS-730,742023,,Epic,Hierarchy - Search,Open,,,
+NCIS-731,742024,,Epic,Basic Coder Dashboard,Open,,,
+NCIS-732,742026,,Epic,Advanced Coder Dashboard,Open,,,
+NCIS-733,741903,,Test,"Customer Update | Contacts | Cancel Edit Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-734,742028,,Epic,Basic Supervisor Dashboard,Open,,,
+NCIS-735,742029,,Epic,Advanced Supervisor Dashboard,Open,,,
+NCIS-736,742030,,Epic,Basic Credit Dashboard,Open,,,
+NCIS-737,742032,,Epic,Advanced Credit Dashboard,Open,,,
+NCIS-738,741905,,Test,"Customer Update | Contacts | Delete Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-739,741908,,Test,"Customer Update | Contacts | Cancel Delete Contact",Open,Luisina.Gentile@xpo.com,,
+NCIS-740,742351,,Test,"Customer Update | Contacts | Edit Contact - invalid Data",Open,Luisina.Gentile@xpo.com,,
+NCIS-741,742355,,Test,"Customer Update | Contacts | Add new Contact - Invalid Data",Open,Luisina.Gentile@xpo.com,,
+NCIS-742,742362,,Test,"Customer Update | Business Name Aliases | Edit Alias - Invalid Data",Open,Luisina.Gentile@xpo.com,,
+NCIS-743,742602,,Test,"Customer Update | Business Name Aliases | Add new Alias - Invalid Data",Open,Luisina.Gentile@xpo.com,,
+NCIS-744,742680,,Epic,Change Request Status to Complete,Open,,,
+NCIS-745,742667,,Story,Retrieve notes using proxy JS4D and add to request details response,Open,Filip.Szlono@xpo.com,8.0,NCIS-576
+NCIS-746,742881,742667,Sub task,Create contract request to modify request details contract to add notes to the response,Open,Filip.Szlono@xpo.com,,
+NCIS-747,742884,,Task,Generate Java files for GEN proxy JS4D,Open,Sagar.Garaye@xpo.com,,
+NCIS-748,742900,,Story,Create Rest projects for NCIS Symphony implementation,Open,,,
+NCIS-749,742941,,Story,New API to mark request for needs more info,In Development,Stephen.kirby@xpo.com,3.0,NCIS-553
+NCIS-750,743341,740349,Sub task,Create necessary UI components,In Development,Annia.Labrador@xpo.com,,
+NCIS-751,743342,740349,Sub task,Data Integration for Review changes BNA,Open,Annia.Labrador@xpo.com,,
+NCIS-753,744326,,Bug,Update Customer - BNA add or edit State should not allow invalid data,Open,Annia.Labrador@xpo.com,,NCIS-586
+NCIS-754,744376,,Story,Add Locked ID/Name to Request Details Response,Open,Juan.lopez3@xpo.com,3.0,NCIS-699
+NCIS-755,744377,,Story,Request Details UI - v4.0 - Redesign,Open,,,
+NCIS-756,744606,,Bug,Update Customer - Contacts - User should be able to add a primary contact,In Development,Braulio.Leon@xpo.com,,NCIS-616
+NCIS-757,744564,,Story,BE - Create  updateRequestQueue API,Open,Juan.lopez3@xpo.com,5.0,NCIS-571
+NCIS-758,745222,,Test,"Login | SSO successful",Open,Luisina.Gentile@xpo.com,,NCIS-238
+NCIS-759,745028,,Bug,"Change Request | Locations | Mad Code missing: user should be able to navigate through the different locations",Open,Annia.Labrador@xpo.com,,
+NCIS-760,745616,,Story,[API] Add seqNumber to requested changes (Grid crads),Open,Juan.lopez3@xpo.com,2.0,NCIS-659
+NCIS-761,745911,,Story,UI Change Request Status to Complete,Open,Braulio.Leon@xpo.com,5.0,NCIS-744
