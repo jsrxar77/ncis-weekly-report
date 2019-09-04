@@ -22,8 +22,8 @@ aux.test.columns <- aux.ncis.issue.links %>% select("Issue.key", contains('Outwa
 melt.ncis.issue.sprints <- melt(aux.ncis.issue.sprints[,colnames(aux.sprint.columns)],id.vars = 1)
 ncis.issue.sprints <- melt.ncis.issue.sprints %>% 
   filter(value != "") %>% 
-  mutate("Issue.key.child" = value) %>%
-  select("Issue.key","Issue.key.child")
+  mutate("Sprint.key" = value) %>%
+  select("Issue.key","Sprint.key")
 
 melt.ncis.issue.depends <- melt(aux.ncis.issue.links[,colnames(aux.depend.columns)],id.vars = 1)
 ncis.issue.depends <- melt.ncis.issue.depends %>% 
