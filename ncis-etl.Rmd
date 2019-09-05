@@ -11,6 +11,7 @@ library(reshape2)
 aux.ncis.issues <- read.csv("~//ncis-weekly-report/ncis-issues.csv")
 aux.ncis.issue.sprints <- read.csv("~//ncis-weekly-report/ncis-issue-sprints.csv")
 aux.ncis.issue.links <- read.csv("~//ncis-weekly-report/ncis-issue-links.csv")
+aux.ncis.issue.milestones <- read.csv("~//ncis-weekly-report/ncis-issue-milestones.csv")
 
 # transform data: columns
 aux.sprint.columns <- aux.ncis.issue.sprints %>% select("Issue.key", contains('Sprint')) %>% head(0)
@@ -44,4 +45,5 @@ ncis.issue.tests <- melt.ncis.issue.tests %>%
   select("Issue.key","Issue.key.child")
 
 ncis.issues <- aux.ncis.issues
+ncis.issue.milestones <- aux.ncis.issue.milestones
 ```
